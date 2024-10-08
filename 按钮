@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹窗</title>
+</head>
+<body>
+
+  
+
+    <!-- 笨蛋按钮 -->
+    <button id="sillyButton">点一下有惊喜</button>
+
+    <script>
+       
+
+        // 获取 "笨蛋" 按钮
+        let sillyButton = document.getElementById("sillyButton");
+
+        // 给 "笨蛋" 按钮添加点击事件监听
+        sillyButton.addEventListener("click", function() {
+            alert("笨蛋");
+        });
+    </script>
+
+</body>
+</html>
